@@ -787,9 +787,9 @@ footer::before {
 
 .category-icon {
  
-    display: table-row;
+    display: table-row; margin: 0 auto 2.4rem;
     width: 100%; 
-    max-width: 100%; 
+    max-width: 100%;
     text-align: center;
     animation: iconFloat 5s ease-in-out infinite alternate;
     filter: drop-shadow(0 12px 36px rgba(200,169,110,.22));
