@@ -506,14 +506,14 @@ section { padding: 9rem 0; position: relative; }
 }
 
 .disciplines-grid {
-    display: grid; grid-template-columns: repeat(3, 1fr);
+    display: grid; grid-template-columns: repeat(3, 2fr);
     gap: 1px; background: var(--border-xs);
 }
 .disc-card {
-    padding: 4rem 3.2rem; background: var(--ink-soft);
+    padding: 3.5rem 3.2rem; background: var(--ink-soft);
     position: relative; overflow: hidden;
     display: flex; flex-direction: column;
-    transition: background .45s;
+    transition: gradient .45s;
 }
 /* Top bar reveal */
 .disc-card::before {
