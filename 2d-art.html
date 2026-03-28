@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Art — Victoria Hujka Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">VICTRAL</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="2d-art.html" class="nav-link active">2D Art</a></li>
+                <li><a href="3d-art.html" class="nav-link">3D Art</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <section class="category-hero">
+        <div class="category-hero-content container">
+            <span class="category-icon"><img src="pageornament.png" alt="2D Art Icon"></span>
+            <h1 class="category-title">2D Digital Art</h1>
+            <p class="category-description">Character designs, concept art, and illustrations that bring imaginative worlds to life through semi-realistic digital artistry and enigmatic storytelling.</p>
+            <div class="category-stats">
+                <div class="stat-badge"><span class="stat-number">7</span><span class="stat-label">Featured Artworks</span></div>
+                <div class="stat-badge"><span class="stat-number">1</span><span class="stat-label">Characters</span></div>
+                <div class="stat-badge"><span class="stat-number">3</span><span class="stat-label">Projects</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="filter-section-art">
+        <div class="filter-container">
+            <button class="art-filter-btn active" data-filter="all">All</button>
+            <button class="art-filter-btn" data-filter="character">Character Design</button>
+            <button class="art-filter-btn" data-filter="concept">Concept Art</button>
+            <button class="art-filter-btn" data-filter="illustration">Illustrations</button>
+            <button class="art-filter-btn" data-filter="environment">Environment</button>
+        </div>
+    </section>
+
+    <section class="art-gallery">
+        <div class="gallery-grid">
+
+            <article class="art-piece" data-category="character">
+                <div class="art-image-container">
+                    <a href="femalefigurine.png" class="glightbox">
+                        <div class="art-image-wrapper">
+                            <img src="femalefigurine.png" alt="Enigmatic Wanderer" class="art-image">
+                                <div class="image-zoom-overlay"><span class="zoom-icon"><img src="zoom_icon.png"/></span></div>
+                        </div>
+                    </a>
+                    <div class="art-overlay">
+                        <h3>Enigmatic Wanderer – Character Design</h3>
+                        <p>Semi-realistic character design with mysterious background narrative</p>
+                        <div class="art-tags"><span class="art-tag">Character Design</span><span class="art-tag">Digital Painting</span></div>
+                    </div>
+                </div>
+                <div class="art-info"><h4>Enigmatic Wanderer – Character Design</h4><span class="art-year">2024</span></div>
+            </article>
+
+            <article class="art-piece" data-category="concept">
+                <div class="art-image-container">
+                    <a href="SKROTHVELGR (1).png" class="glightbox">
+                        <div class="art-image-wrapper">
+                            <img src="SKROTHVELGR (1).png" alt="Skrothvelgr" class="art-image">
+                                <div class="image-zoom-overlay"><span class="zoom-icon"><img src="zoom_icon.png"/></span></div>
+                        </div>
+                    </a>
+                    <div class="art-overlay">
+                        <h3>Skrothvelgr – Creature Design</h3>
+                        <p>Semi-realistic creature design with mysterious, enigmatic background narrative</p>
+                        <div class="art-tags"><span class="art-tag">Creature Design</span><span class="art-tag">Digital Painting</span></div>
+                    </div>
+                </div>
+                <div class="art-info"><h4>Skrothvelgr – Creature Design</h4><span class="art-year">2024</span></div>
+            </article>
+
+            <article class="art-piece" data-category="concept">
+                <div class="art-image-container">
+                    <a href="Marrowveil.png" class="glightbox">
+                        <div class="art-image-wrapper">
+                            <img src="Marrowveil.png" alt="Marrowveil" class="art-image">
+                                <div class="image-zoom-overlay"><span class="zoom-icon"><img src="zoom_icon.png"/></span></div>
+                        </div>
+                    </a>
+                    <div class="art-overlay">
+                        <h3>Marrowveil – Hack &amp; Slash Asset Concept</h3>
+                        <p>Semi-realistic hack &amp; slash greatsword asset concept iteration</p>
+                        <div class="art-tags"><span class="art-tag">Asset Design</span><span class="art-tag">Digital Painting</span></div>
+                    </div>
+                </div>
+                <div class="art-info"><h4>Marrowveil – Hack &amp; Slash Asset Concept</h4><span class="art-year">2025</span></div>
+            </article>
+
+            <article class="art-piece" data-category="concept">
+                <div class="art-image-container">
+                    <a href="Ship copy.png" class="glightbox">
+                        <div class="art-image-wrapper">
+                            <img src="Ship copy.png" alt="Ship Concept" class="art-image">
+                            <div class="image-zoom-overlay"><span class="zoom-icon"><img src="zoom_icon.png"/></span></div>
+                        </div>
+                    </a>
+                    <div class="art-overlay">
+                        <h3>Ship – Asset Concept</h3>
+                        <p>Semi-realistic ship asset concept</p>
+                        <div class="art-tags"><span class="art-tag">Asset Design</span><span class="art-tag">Digital Painting</span></div>
+                    </div>
+                </div>
+                <div class="art-info"><h4>Ship – Asset Concept</h4><span class="art-year">2025</span></div>
+            </article>
+
+            <article class="art-piece" data-category="environment">
+                <div class="art-image-container">
+                    <a href="enigmatic_weathering_sun.png" class="glightbox">
+                        <div class="art-image-wrapper">
+                            <img src="enigmatic_weathering_sun.png" alt="Weathering Sunset" class="art-image">
+                            <div class="image-zoom-overlay"><span class="zoom-icon"><img src="zoom_icon.png"/></span></div>
+                        </div>
+                    </a>
+                    <div class="art-overlay">
+                        <h3>Weathering Sunset – Environment Concept</h3>
+                        <p>Semi-realistic environment design with mysterious, enigmatic narrative</p>
+                        <div class="art-tags"><span class="art-tag">Environment</span><span class="art-tag">Digital Painting</span></div>
+                    </div>
+                </div>
+                <div class="art-info"><h4>Weathering Sunset – Environment Concept</h4><span class="art-year">2024</span></div>
+            </article>
+
+                    <article class="art-piece" data-category="environment">
+                <div class="art-image-container">
+                    <a href="castleconceptart.png" class="glightbox">
+                        <div class="art-image-wrapper">
+                            <img src="castleconceptart.png" alt="Castle Concept" class="art-image">
+                            <div class="image-zoom-overlay"><span class="zoom-icon"><img src="zoom_icon.png"/></span></div>
+                        </div>
+                    </a>
+                    <div class="art-overlay">
+                        <h3>Castle Concept – Environment Concept</h3>
+                        <p>Semi-realistic environment design with mysterious, enigmatic narrative</p>
+                        <div class="art-tags"><span class="art-tag">Environment</span><span class="art-tag">Digital Painting</span></div>
+                    </div>
+                </div>
+                <div class="art-info"><h4>Castle Concept – Environment Concept</h4><span class="art-year">2024</span></div>
+            </article>
+
+                                <article class="art-piece" data-category="illustration">
+                <div class="art-image-container">
+                    <a href="Map_Illustration_Concept.png" class="glightbox">
+                        <div class="art-image-wrapper">
+                            <img src="Map_Illustration_Concept.png" alt="Map Illustration" class="art-image">
+                            <div class="image-zoom-overlay"><span class="zoom-icon"><img src="zoom_icon.png"/></span></div>
+                        </div>
+                    </a>
+                    <div class="art-overlay">
+                        <h3>Map Illustration – Concept</h3>
+                        <p>Semi-realistic environment design with mysterious, enigmatic narrative</p>
+                        <div class="art-tags"><span class="art-tag">Environment</span><span class="art-tag">Digital Painting</span></div>
+                    </div>
+                </div>
+                <div class="art-info"><h4>Map Illustration – Concept</h4><span class="art-year">2023</span></div>
+            </article>
+    </section>
+
+    <section class="process-section">
+        <div class="process-container container">
+            <h2 class="section-title">Creative Process</h2>
+            <p class="section-subtitle">From initial concept to final artwork</p>
+            <div class="process-grid">
+                <div class="process-step"><div class="process-number">01</div><h3>Ideation</h3><p>Exploring narratives, gathering references, and developing the core concept through sketches and mood boards.</p></div>
+                <div class="process-step"><div class="process-number">02</div><h3>Sketching</h3><p>Creating rough thumbnails and refined line art to establish composition, form, and character personality.</p></div>
+                <div class="process-step"><div class="process-number">03</div><h3>Rendering</h3><p>Applying colors, lighting, and textures with attention to atmospheric depth and semi-realistic details.</p></div>
+                <div class="process-step"><div class="process-number">04</div><h3>Finalization</h3><p>Refining details, adjusting values, and adding final touches to achieve a polished, cohesive artwork.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tools-spotlight">
+        <div class="tools-container container">
+            <h2 class="section-title">Digital Toolkit</h2>
+            <p class="section-subtitle">Professional tools for 2D creation</p>
+            <div class="tools-grid-2d">
+                <div class="tool-item">
+                    <div class="tool-icon-large"><img src="Adobe_Photoshop_CC_icon.svg.png" alt="Photoshop Icon"></div>
+                    <h3>Photoshop</h3>
+                    <p>Primary tool for digital painting, photo manipulation, and detailed rendering</p>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon-large"><img src="Adobe_Illustrator_CC_icon.svg.png" alt="Illustrator Icon"></div>
+                    <h3>Illustrator</h3>
+                    <p>Vector graphics for clean line art and scalable design elements</p>
+                </div>
+                <div class="tool-item">
+                    <div class="tool-icon-large"><img src="Adobe_InDesign_CC_icon.svg.png" alt="InDesign Icon"></div>
+                    <h3>InDesign</h3>
+                    <p>Layout and typography for professional publishing and presentation</p>
+                </div>
+                  <div class="tool-item">
+                    <div class="tool-icon-large"><img src="Adobe_Premiere_Pro_CC_icon.svg.png" alt="Premiere Pro Icon"></div>
+                    <h3>Premiere Pro</h3>
+                    <p>Video editing and motion graphics for animated concept art and promotional content</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section-art">
+        <div class="cta-content">
+            <h2>Interested in Commissioning Custom Art?</h2>
+            <p>Available for character design, concept art, and illustration projects for games and creative media.</p>
+            <a href="index.html#contact" class="btn-primary">Get in Touch</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="footer-logo">VICTRAL</span>
+                <p>Game Artist specializing in 2D/3D Art and immersive visual storytelling.<br>HTL Spengergasse · Game Design · Vienna</p>
+            </div>
+            <div class="footer-nav">
+                <div class="footer-col"><h5>Navigation</h5><a href="index.html">Home</a><a href="about.html">About</a></div>
+                <div class="footer-col"><h5>Portfolio</h5><a href="2d-art.html">2D Art</a><a href="3d-art.html">3D Art</a></div>
+                <div class="footer-col"><h5>Contact</h5><a href="mailto:victoriahujka@outlook.com">Email</a><a href="https://www.instagram.com/victral_enigmaire/" target="_blank">Instagram</a></div>
+            </div>
+        </div>
+        <div class="footer-bottom"><p>© 2026 Victoria Hujka · VICTRAL · All Rights Reserved</p></div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop">↑</button>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

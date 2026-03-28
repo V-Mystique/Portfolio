@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Art — Victoria Hujka Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">VICTRAL</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="2d-art.html" class="nav-link">2D Art</a></li>
+                <li><a href="3d-art.html" class="nav-link active">3D Art</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <section class="category-hero">
+        <div class="category-hero-content container">
+             <span class="category-icon"><img src="pageornament.png" alt="3D Art Icon"></span>
+            <h1 class="category-title">3D Modeling &amp; Environments</h1>
+            <p class="category-description">Immersive 3D worlds, detailed character models, and game-ready assets created with industry-standard tools and a focus on atmospheric storytelling and technical excellence.</p>
+            <div class="category-stats">
+                <div class="stat-badge"><span class="stat-number">4</span><span class="stat-label">Featured Projects</span></div>
+                <div class="stat-badge"><span class="stat-number">4+</span><span class="stat-label">Years</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="filter-section-art">
+        <div class="filter-container">
+            <button class="art-filter-btn active" data-filter="all">All</button>
+            <button class="art-filter-btn" data-filter="environment">Environments</button>
+            <button class="art-filter-btn" data-filter="character">Character Models</button>
+            <button class="art-filter-btn" data-filter="props">Props &amp; Assets</button>
+            <button class="art-filter-btn" data-filter="textures">Texturing</button>
+        </div>
+    </section>
+
+    <section class="art-gallery">
+        <div class="gallery-grid">
+
+            <article class="art-piece" data-category="character">
+                <div class="art-image-container">
+                    <a href="endgegner_3D_render.png" class="glightbox">
+                        <div class="art-image-wrapper">
+                            <img src="endgegner_3D_render.png" alt="Archnemesis 3D Render" class="art-image">
+                                     <div class="image-zoom-overlay"><span class="zoom-icon"><img src="zoom_icon.png"/></span></div>
+                        </div>
+                    </a>
+                    <div class="art-overlay">
+                        <h3>Archnemesis</h3>
+                        <p>Game-ready 3D character sculpt and render in Blender</p>
+                        <div class="art-tags"><span class="art-tag">Character</span><span class="art-tag">Blender</span><span class="art-tag">Game-Ready</span></div>
+                    </div>
+                </div>
+                <div class="art-info"><h4>Archnemesis</h4><span class="art-year">2024</span></div>
+            </article>
+
+            <article class="art-piece" data-category="character">
+                <div class="art-image-container">
+                    <a href="Render_FemaleModel.png" class="glightbox">
+                        <div class="art-image-wrapper">
+                            <img src="Render_FemaleModel.png" alt="Female Character Model" class="art-image">
+                                     <div class="image-zoom-overlay"><span class="zoom-icon"><img src="zoom_icon.png"/></span></div>
+                        </div>
+                    </a>
+                    <div class="art-overlay">
+                        <h3>Female Character Model</h3>
+                        <p>Retopologized and realistic female character with PBR textures and high-quality sculpting</p>
+                        <div class="art-tags"><span class="art-tag">Character</span><span class="art-tag">Retopology</span><span class="art-tag">PBR</span></div>
+                    </div>
+                </div>
+                <div class="art-info"><h4>Female Character Model</h4><span class="art-year">2025</span></div>
+            </article>
+
+            <article class="art-piece" data-category="props">
+                <div class="art-image-container">
+                    <a href="Marrowveil_Showcase.png" class="glightbox">
+                        <div class="art-image-wrapper">
+                            <img src="Marrowveil_Showcase.png" alt="Marrowveil Sword Model" class="art-image">
+                                     <div class="image-zoom-overlay"><span class="zoom-icon"><img src="zoom_icon.png"/></span></div>
+                        </div>
+                    </a>
+                    <div class="art-overlay">
+                        <h3>Marrowveil 3D Model</h3>
+                        <p>Highly detailed sword model based on 2D concept with PBR textures and realistic lighting</p>
+                        <div class="art-tags"><span class="art-tag">Props</span><span class="art-tag">Sword</span><span class="art-tag">PBR</span></div>
+                    </div>
+                </div>
+                <div class="art-info"><h4>Marrowveil Sword</h4><span class="art-year">2025</span></div>
+            </article>
+
+            <article class="art-piece" data-category="props">
+                <div class="art-image-container">
+                    <a href="Ship_Render.png" class="glightbox">
+                        <div class="art-image-wrapper">
+                            <img src="Ship_Render.png" alt="Ship Render" class="art-image">
+                                     <div class="image-zoom-overlay"><span class="zoom-icon"><img src="zoom_icon.png"/></span></div>
+                        </div>
+                    </a>
+                    <div class="art-overlay">
+                        <h3>Ship Render</h3>
+                        <p>Highly detailed ship model with PBR materials and realistic lighting setup</p>
+                        <div class="art-tags"><span class="art-tag">Props</span><span class="art-tag">Ship</span><span class="art-tag">PBR</span></div>
+                    </div>
+                </div>
+                <div class="art-info"><h4>Ship Render</h4><span class="art-year">2025</span></div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="technical-section">
+        <div class="technical-container container">
+            <h2 class="section-title">Technical Pipeline</h2>
+            <p class="section-subtitle">Complete 3D production workflow</p>
+            <div class="pipeline-grid">
+                <div class="pipeline-step">
+                    <div class="process-number">01</div>
+                    <h3>Modeling</h3>
+                    <p>Blender, Maya</p>
+                    <ul class="pipeline-details">
+                        <li>Hard Surface Modeling</li>
+                        <li>Organic Sculpting</li>
+                        <li>Topology Optimization</li>
+                        <li>UV Unwrapping</li>
+                    </ul>
+                </div>
+                <div class="pipeline-step">
+                    <div class="process-number">02</div>
+                    <h3>Texturing</h3>
+                    <p>Substance Painter</p>
+                    <ul class="pipeline-details">
+                        <li>PBR Materials</li>
+                        <li>Smart Materials</li>
+                        <li>Procedural Textures</li>
+                        <li>Baking &amp; Export</li>
+                    </ul>
+                </div>
+                <div class="pipeline-step">
+                    <div class="process-number">03</div>
+                    <h3>Lighting</h3>
+                    <p>Blender, Substance Painter</p>
+                    <ul class="pipeline-details">
+                        <li>HDRI Lighting</li>
+                        <li>Global Illumination</li>
+                        <li>Post-Processing</li>
+                        <li>Atmosphere &amp; VFX</li>
+                    </ul>
+                </div>
+                <div class="pipeline-step">
+                    <div class="process-number">04</div>
+                    <h3>Rendering</h3>
+                    <p>Cycles, Eevee</p>
+                    <ul class="pipeline-details">
+                        <li>Real-time Preview</li>
+                        <li>Raytracing</li>
+                        <li>Optimization</li>
+                        <li>Final Compositing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tools-spotlight">
+        <div class="tools-container container">
+            <h2 class="section-title">3D Software Stack</h2>
+            <p class="section-subtitle">Industry-standard tools for 3D production</p>
+            <div class="tools-grid-3d">
+                <div class="tool-item-3d"><div class="tool-icon-large"><img src="Blender_logo_no_text.svg.png" alt="Blender Icon"></div><h3>Blender</h3><p>Primary 3D software for modeling, sculpting, animation, and rendering</p></div>
+                <div class="tool-item-3d"><div class="tool-icon-large"><img src="unity-icon.png" alt="Unity Icon"></div><h3>Unity</h3><p>Real-time rendering and game integration for interactive experiences</p></div>
+                <div class="tool-item-3d"><div class="tool-icon-large"><img src="adobe-substance-3d-painter-icon.png" alt="Substance Painter Icon"></div><h3>Substance Painter</h3><p>Industry-standard texturing tool for PBR material creation</p></div>
+                <div class="tool-item-3d"><div class="tool-icon-large"><img src="autodesk-maya-icon.png" alt="Maya Icon"></div><h3>Autodesk Maya</h3><p>Advanced 3D modeling, animation, and rendering software</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="specializations-section">
+        <div class="specializations-container container">
+            <h2 class="section-title">Areas of Expertise</h2>
+            <p class="section-subtitle">Technical and artistic specializations in 3D</p>
+            <div class="specializations-grid">
+                <div class="spec-card"><h3>Environment Art</h3><p>Creating immersive game worlds with attention to atmosphere, composition, and environmental storytelling</p></div>
+                <div class="spec-card"><h3>Character Modeling</h3><p>Designing and modeling game-ready characters from concept to final rigged asset</p></div>
+                <div class="spec-card"><h3>Hard Surface Modeling</h3><p>Technical modeling for props, weapons, vehicles, and architectural elements</p></div>
+                <div class="spec-card"><h3>Organic Modeling</h3><p>Sculpting natural forms, creatures, and detailed character features</p></div>
+                <div class="spec-card"><h3>PBR Texturing</h3><p>Physically-based rendering materials for realistic and stylized assets</p></div>
+                <div class="spec-card"><h3>VFX &amp; Shaders</h3><p>Visual effects, particle systems, and custom shader development</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section-art">
+        <div class="cta-content">
+            <h2>Looking for 3D Assets or Environments?</h2>
+            <p>Available for freelance 3D modeling, environment design, and game asset creation projects.</p>
+            <a href="index.html#contact" class="btn-primary">Discuss Your Project</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="footer-logo">VICTRAL</span>
+                <p>Game Artist specializing in 2D/3D Art and immersive visual storytelling.<br>HTL Spengergasse · Game Design · Vienna</p>
+            </div>
+            <div class="footer-nav">
+                <div class="footer-col"><h5>Navigation</h5><a href="index.html">Home</a><a href="about.html">About</a></div>
+                <div class="footer-col"><h5>Portfolio</h5><a href="2d-art.html">2D Art</a><a href="3d-art.html">3D Art</a></div>
+                <div class="footer-col"><h5>Contact</h5><a href="mailto:victoriahujka@outlook.com">Email</a><a href="https://www.instagram.com/victral_enigmaire/" target="_blank">Instagram</a></div>
+            </div>
+        </div>
+        <div class="footer-bottom"><p>© 2026 Victoria Hujka · VICTRAL · All Rights Reserved</p></div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop">↑</button>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

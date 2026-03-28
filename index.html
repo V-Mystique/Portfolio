@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victoria Hujka — Game Artist & Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">VICTRAL</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="2d-art.html" class="nav-link">2D Art</a></li>
+                <li><a href="3d-art.html" class="nav-link">3D Art</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-bg-orb orb-1"></div>
+        <div class="hero-bg-orb orb-2"></div>
+        <div class="noise-overlay"></div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-eyebrow"><span class="eyebrow-line"></span>Game Artist &amp; Designer · Vienna, Austria</p>
+                <h1>Victoria<br><em>Hujka</em></h1>
+                <p class="hero-sub">Creating immersive visual experiences through semi-realistic artistry — from character design and 3D environments to interactive game worlds. Currently in 4th year at HTL Spengergasse, Game Design.</p>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">10+</span>
+                        <span class="stat-lbl">Projects</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-num">4+</span>
+                        <span class="stat-lbl">Years Experience</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-num">3</span>
+                        <span class="stat-lbl">Specialties</span>
+                    </div>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="#portfolio" class="btn-primary">View Portfolio</a>
+                    <a href="#contact" class="btn-ghost">Get in Touch</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="portrait-wrap">
+                    <div class="portrait-glow"></div>
+                    <span class="portrait-corner portrait-corner--tl"></span>
+                    <span class="portrait-corner portrait-corner--tr"></span>
+                    <span class="portrait-corner portrait-corner--bl"></span>
+                    <span class="portrait-corner portrait-corner--br"></span>
+                    <img src="Hujka_Lebenslauf_Profil Kopie.png" alt="Victoria Hujka" class="portrait-img">
+                    <div class="portrait-badge">
+                        <span>Available for</span>
+                        <strong>Internships</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll-hint">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Disciplines -->
+    <section class="disciplines">
+        <div class="container">
+            <header class="section-header">
+                <p class="section-eyebrow">Core Disciplines</p>
+                <h2>Mastery across visual<br><em>and interactive mediums</em></h2>
+            </header>
+
+            <div class="disciplines-grid">
+                <a href="2d-art.html" class="disc-card">
+                    <div class="disc-num">01</div>
+                    <div class="disc-icon"><img src="2dpainticon.png" alt="2D Art Icon"></div>
+                    <h3>2D Digital Art</h3>
+                    <p>Character designs, concept art, and illustrations bringing imaginative worlds to life through semi-realistic digital artistry and enigmatic storytelling.</p>
+                    <div class="disc-meta">
+                        <span class="disc-arrow">→</span>
+                    </div>
+                </a>
+
+                <a href="3d-art.html" class="disc-card">
+                    <div class="disc-num">02</div>
+                    <div class="disc-icon"><img src="3dicon.png" alt="3D Modeling Icon"></div>
+                    <h3>3D Modeling</h3>
+                    <p>Immersive 3D worlds, detailed character models, and game-ready assets crafted with atmospheric storytelling and technical excellence.</p>
+                    <div class="disc-meta"></div>
+                        <span class="disc-arrow">→</span>
+                    </div>
+                </a>
+
+                <a class="disc-card">
+                    <div class="disc-num">03</div>
+                    <div class="disc-icon"><img src="gamedesign.png" alt="Game Design Icon"></div>
+                    <h3>Game Design</h3>
+                    <p>Interactive experiences, gameplay mechanics, and immersive worlds crafted through thoughtful design and player-centric thinking.</p>                 <div class="disc-meta">
+       <span>15+ Models</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Work -->
+    <section class="featured">
+        <div class="container">
+            <header class="section-header">
+                <p class="section-eyebrow">Selected Work</p>
+                <h2>Featured <em>Projects</em></h2>
+            </header>
+
+            <div class="featured-grid" id="portfolio">
+                <a href="2d-art.html" class="feat-item">
+                    <div class="feat-img-wrap">
+                        <img src="Marrowveil.png" alt="Sword Concept" class="feat-img">
+                        <div class="feat-overlay">
+                            <span class="feat-cat">2D Art · Hack &amp; Slash Asset Concept</span>
+                            <h3>Marrowveil Sword Concept</h3>
+                        </div>
+                    </div>
+                    <div class="feat-info">
+                        <span class="feat-tag">Asset Concept</span>
+                        <h4>Marrowveil Sword</h4>
+                        <span class="feat-year">2025</span>
+                    </div>
+                </a>
+
+                <a href="2d-art.html" class="feat-item">
+                    <div class="feat-img-wrap">
+                        <img src="SKROTHVELGR (1).png" alt="Skrothvelgr" class="feat-img">
+                        <div class="feat-overlay">
+                            <span class="feat-cat">2D Art · Creature Concept</span>
+                            <h3>Skrothvelgr</h3>
+                        </div>
+                    </div>
+                    <div class="feat-info">
+                        <span class="feat-tag">Creature Design</span>
+                        <h4>Skrothvelgr</h4>
+                        <span class="feat-year">2025</span>
+                    </div>
+                </a>
+
+                <a href="2d-art.html" class="feat-item">
+                    <div class="feat-img-wrap">
+                        <img src="enigmatic_weathering_sun.png" alt="Weathering Sunset" class="feat-img">
+                        <div class="feat-overlay">
+                            <span class="feat-cat">2D Art · Environment Concept</span>
+                            <h3>Weathering Sunset</h3>
+                        </div>
+                    </div>
+                    <div class="feat-info">
+                        <span class="feat-tag">Environment</span>
+                        <h4>Weathering Sunset</h4>
+                        <span class="feat-year">2024</span>
+                    </div>
+                </a>
+
+                <a href="3d-art.html" class="feat-item">
+                    <div class="feat-img-wrap">
+                        <img src="endgegner_3D_render.png" alt="Archnemesis 3D" class="feat-img">
+                        <div class="feat-overlay">
+                            <span class="feat-cat">3D Art · Character Design</span>
+                            <h3>Archnemesis</h3>
+                        </div>
+                    </div>
+                    <div class="feat-info">
+                        <span class="feat-tag">3D Sculpt</span>
+                        <h4>Archnemesis</h4>
+                        <span class="feat-year">2024</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="view-all">
+                <a href="2d-art.html" class="btn-ghost">View 2D Projects</a>
+                <a href="3d-art.html" class="btn-ghost">View 3D Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools -->
+    <section class="tools-section">
+        <div class="container">
+            <header class="section-header">
+                <p class="section-eyebrow">Creative Arsenal</p>
+                <h2>Professional <em>Toolkit</em></h2>
+            </header>
+
+            <div class="tools-grid">
+                <div class="tool-group">
+                    <h4>2D Creation</h4>
+                    <div class="tool-chips">
+                        <span class="chip">Photoshop</span>
+                        <span class="chip">Illustrator</span>
+                        <span class="chip">Procreate</span>
+                        <span class="chip">InDesign</span>
+                        <span class="chip">Premiere Pro</span>
+                    </div>
+                </div>
+                <div class="tool-group">
+                    <h4>3D Production</h4>
+                    <div class="tool-chips">
+                        <span class="chip">Blender</span>
+                        <span class="chip">Maya</span>
+                        <span class="chip">Substance Painter</span>
+                        <span class="chip">Marmoset Toolbag</span>
+                    </div>
+                </div>
+                <div class="tool-group">
+                    <h4>Game Development</h4>
+                    <div class="tool-chips">
+                        <span class="chip">Unity</span>
+                        <span class="chip">Unreal Engine 5</span>
+                        <span class="chip">C#</span>
+                        <span class="chip">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-inner">
+                <div class="contact-left">
+                    <p class="section-eyebrow">Let's Connect</p>
+                    <h2>Available for<br><em>Internships &amp; Freelance</em></h2>
+                    <p class="contact-body">I'm always excited to collaborate on interesting projects — character design, concept art, 3D assets, or game development. Based in Vienna, open to remote and on-site opportunities.</p>
+                </div>
+              <div class="contact-right">
+                    <a href="mailto:victoriahujka@outlook.com" class="contact-card">
+                        <div class="contact-card-icon">✉</div>
+                        <div>
+                            <span class="contact-card-label">Email</span>
+                          <strong class="contact-card-value">victoriahujka@outlook.com</strong>
+                        </div>
+                    </a>
+                    <a href="tel:+4366399999999" class="contact-card">
+                        <div class="contact-card-icon">✆</div>
+                        <div>
+                            <span class="contact-card-label">Phone</span>
+                            <strong class="contact-card-value">+43 677 647 846 99</strong>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/victral_enigmaire/" target="_blank" class="contact-card">
+                        <div class="contact-card-icon">◈</div>
+                        <div>
+                            <span class="contact-card-label">Instagram</span>
+                            <strong class="contact-card-value">@victral_enigmaire</strong>
+                        </div>
+                    </a>
+                    <div class="contact-card no-link">
+                        <div class="contact-card-icon">◉</div>
+                        <div>
+                            <span class="contact-card-label">Location</span>
+                            <strong class="contact-card-value">Vienna, Austria</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="footer-logo">VICTRAL</span>
+                   <p>Game Artist &amp; Designer specializing in 2D/3D art and immersive visual storytelling.<br>HTL Spengergasse · Game Design · Vienna</p>
+            </div>
+            <div class="footer-nav">
+                <div class="footer-col">
+                    <h5>Navigation</h5>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Portfolio</h5>
+                    <a href="2d-art.html">2D Art</a>
+                    <a href="3d-art.html">3D Art</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Contact</h5>
+                    <a href="mailto:victoriahujka@outlook.com">Email</a>
+                    <a href="https://www.instagram.com/victral_enigmaire/" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Victoria Hujka · VICTRAL · All Rights Reserved</span>
+        </div>
+    </footer>
