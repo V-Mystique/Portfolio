@@ -11,16 +11,19 @@
 <body>
 
     <!-- Navigation -->
-       <nav id="navbar">
+    <nav id="navbar">
         <div class="nav-container">
             <a href="index.html" class="logo">VICTRAL</a>
             <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html" class="nav-link active">Home</a></li>
                 <li><a href="2d-art.html" class="nav-link">2D Art</a></li>
                 <li><a href="3d-art.html" class="nav-link">3D Art</a></li>
-                <li><a href="about.html" class="nav-link active">About</a></li>
+                <li><a href="game-design.html" class="nav-link">Game Design</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
             </ul>
-            <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </nav>
 
@@ -28,7 +31,7 @@
     <section class="hero" id="home">
         <div class="hero-bg-orb orb-1"></div>
         <div class="hero-bg-orb orb-2"></div>
-        <div class="noise-overlay"></div>
+        <div class="hero-bg-orb orb-3"></div>
 
         <div class="hero-content">
             <div class="hero-text">
@@ -38,12 +41,12 @@
 
                 <div class="hero-stats">
                     <div class="stat-item">
-                        <span class="stat-num">10+</span>
+                        <span class="stat-num">50+</span>
                         <span class="stat-lbl">Projects</span>
                     </div>
                     <div class="stat-divider"></div>
                     <div class="stat-item">
-                        <span class="stat-num">4+</span>
+                        <span class="stat-num">5+</span>
                         <span class="stat-lbl">Years Experience</span>
                     </div>
                     <div class="stat-divider"></div>
@@ -54,7 +57,7 @@
                 </div>
 
                 <div class="hero-actions">
-                    <a href="#portfolio" class="btn-primary">View Portfolio</a>
+                    <a href="allprojects.html" class="btn-primary">View Portfolio</a>
                     <a href="#contact" class="btn-ghost">Get in Touch</a>
                 </div>
             </div>
@@ -92,29 +95,35 @@
             <div class="disciplines-grid">
                 <a href="2d-art.html" class="disc-card">
                     <div class="disc-num">01</div>
-                    <div class="disc-icon"><img src="2dpainticon.png" alt="2D Art Icon"></div>
+                    <div class="disc-icon">✏️</div>
                     <h3>2D Digital Art</h3>
                     <p>Character designs, concept art, and illustrations bringing imaginative worlds to life through semi-realistic digital artistry and enigmatic storytelling.</p>
                     <div class="disc-meta">
+                        <span>25+ Artworks</span>
                         <span class="disc-arrow">→</span>
                     </div>
                 </a>
 
                 <a href="3d-art.html" class="disc-card">
                     <div class="disc-num">02</div>
-                    <div class="disc-icon"><img src="3dicon.png" alt="3D Modeling Icon"></div>
+                    <div class="disc-icon">🗿</div>
                     <h3>3D Modeling</h3>
                     <p>Immersive 3D worlds, detailed character models, and game-ready assets crafted with atmospheric storytelling and technical excellence.</p>
                     <div class="disc-meta">
+                        <span>15+ Models</span>
                         <span class="disc-arrow">→</span>
                     </div>
                 </a>
 
-                <a class="disc-card">
+                <a href="game-design.html" class="disc-card">
                     <div class="disc-num">03</div>
-                    <div class="disc-icon"><img src="gamedesign.png" alt="Game Development Icon"></div>
-                    <h3>Game Development</h3>
-                    <p>Interactive experiences blending art and technology, from prototyping to polished gameplay, with a focus on engaging mechanics and immersive storytelling.</p>
+                    <div class="disc-icon">🎮</div>
+                    <h3>Game Design</h3>
+                    <p>Interactive experiences, gameplay mechanics, and immersive worlds crafted through thoughtful design and player-centric thinking.</p>
+                    <div class="disc-meta">
+                        <span>10+ Projects</span>
+                        <span class="disc-arrow">→</span>
+                    </div>
                 </a>
             </div>
         </div>
@@ -128,19 +137,19 @@
                 <h2>Featured <em>Projects</em></h2>
             </header>
 
-            <div class="featured-grid" id="portfolio">
-                <a href="2d-art.html" class="feat-item">
+            <div class="featured-grid">
+                <a href="2d-art.html" class="feat-item feat-large">
                     <div class="feat-img-wrap">
-                        <img src="Marrowveil.png" alt="Sword Concept" class="feat-img">
+                        <img src="femalefigurine.png" alt="Enigmatic Wanderer" class="feat-img">
                         <div class="feat-overlay">
-                            <span class="feat-cat">2D Art · Hack &amp; Slash Asset Concept</span>
-                            <h3>Marrowveil Sword Concept</h3>
+                            <span class="feat-cat">2D Art · Character Design</span>
+                            <h3>Enigmatic Wanderer</h3>
                         </div>
                     </div>
                     <div class="feat-info">
-                        <span class="feat-tag">Asset Concept</span>
-                        <h4>Marrowveil Sword</h4>
-                        <span class="feat-year">2025</span>
+                        <span class="feat-tag">Character Design</span>
+                        <h4>Enigmatic Wanderer</h4>
+                        <span class="feat-year">2024</span>
                     </div>
                 </a>
 
@@ -148,14 +157,14 @@
                     <div class="feat-img-wrap">
                         <img src="SKROTHVELGR (1).png" alt="Skrothvelgr" class="feat-img">
                         <div class="feat-overlay">
-                            <span class="feat-cat">2D Art · Creature Concept</span>
+                            <span class="feat-cat">Concept Art</span>
                             <h3>Skrothvelgr</h3>
                         </div>
                     </div>
                     <div class="feat-info">
                         <span class="feat-tag">Creature Design</span>
                         <h4>Skrothvelgr</h4>
-                        <span class="feat-year">2025</span>
+                        <span class="feat-year">2024</span>
                     </div>
                 </a>
 
@@ -163,7 +172,7 @@
                     <div class="feat-img-wrap">
                         <img src="enigmatic_weathering_sun.png" alt="Weathering Sunset" class="feat-img">
                         <div class="feat-overlay">
-                            <span class="feat-cat">2D Art · Environment Concept</span>
+                            <span class="feat-cat">Environment</span>
                             <h3>Weathering Sunset</h3>
                         </div>
                     </div>
@@ -178,7 +187,7 @@
                     <div class="feat-img-wrap">
                         <img src="endgegner_3D_render.png" alt="Archnemesis 3D" class="feat-img">
                         <div class="feat-overlay">
-                            <span class="feat-cat">3D Art · Character Design</span>
+                            <span class="feat-cat">3D Art</span>
                             <h3>Archnemesis</h3>
                         </div>
                     </div>
@@ -191,8 +200,7 @@
             </div>
 
             <div class="view-all">
-                <a href="2d-art.html" class="btn-ghost">View 2D Projects</a>
-                <a href="3d-art.html" class="btn-ghost">View 3D Projects</a>
+                <a href="allprojects.html" class="btn-ghost">View All Projects</a>
             </div>
         </div>
     </section>
@@ -247,19 +255,19 @@
                     <h2>Available for<br><em>Internships &amp; Freelance</em></h2>
                     <p class="contact-body">I'm always excited to collaborate on interesting projects — character design, concept art, 3D assets, or game development. Based in Vienna, open to remote and on-site opportunities.</p>
                 </div>
-              <div class="contact-right">
-                    <a href="mailto:victoriahujka@outlook.com" class="contact-card">
+                <div class="contact-right">
+                    <a href="/cdn-cgi/l/email-protection#483e212b3c273a2129203d22232908212b24273d2c662b2725" class="contact-card">
                         <div class="contact-card-icon">✉</div>
                         <div>
                             <span class="contact-card-label">Email</span>
-                          <strong class="contact-card-value">victoriahujka@outlook.com</strong>
+                            <strong class="contact-card-value"><span class="__cf_email__" data-cfemail="a7d1cec4d3c8d5cec6cfd2cdccc6e7cec4cbc8d2c389c4c8ca">[email&#160;protected]</span></strong>
                         </div>
                     </a>
                     <a href="tel:+4366399999999" class="contact-card">
                         <div class="contact-card-icon">✆</div>
                         <div>
                             <span class="contact-card-label">Phone</span>
-                            <strong class="contact-card-value">+43 677 647 846 99</strong>
+                            <strong class="contact-card-value">+43 XXX XXX XXXX</strong>
                         </div>
                     </a>
                     <a href="https://www.instagram.com/victral_enigmaire/" target="_blank" class="contact-card">
@@ -286,7 +294,7 @@
         <div class="footer-inner">
             <div class="footer-brand">
                 <span class="footer-logo">VICTRAL</span>
-                   <p>Game Artist &amp; Designer specializing in 2D/3D art and immersive visual storytelling.<br>HTL Spengergasse · Game Design · Vienna</p>
+                <p>Game Artist &amp; Designer — 2D/3D Art, Character Design, Game Development.<br>HTL Spengergasse · Game Design · Vienna</p>
             </div>
             <div class="footer-nav">
                 <div class="footer-col">
@@ -298,18 +306,20 @@
                     <h5>Portfolio</h5>
                     <a href="2d-art.html">2D Art</a>
                     <a href="3d-art.html">3D Art</a>
+                    <a href="game-design.html">Game Design</a>
                 </div>
                 <div class="footer-col">
                     <h5>Contact</h5>
-                    <a href="mailto:victoriahujka@outlook.com">Email</a>
+                    <a href="/cdn-cgi/l/email-protection#b0c6d9d3c4dfc2d9d1d8c5dadbd1f0d9d3dcdfc5d49ed3dfdd">Email</a>
                     <a href="https://www.instagram.com/victral_enigmaire/" target="_blank">Instagram</a>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <span>© 2026 Victoria Hujka · VICTRAL · All Rights Reserved</span>
+            <p>© 2026 Victoria Hujka · VICTRAL · All rights reserved.</p>
         </div>
     </footer>
-    <script src="scripts.js"></script>
+    <button id="backToTop" aria-label="Back to top">↑</button>
+    <script src="script.js"></script>
 </body>
 </html>
